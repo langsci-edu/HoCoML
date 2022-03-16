@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8" />
+    {% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+      as="style"
+      type="text/css"
+      crossorigin
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#157878" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
+    />
+    {% include head-custom.html %}
+    <link rel="stylesheet" href="{{site.baseurl}}/css/style.css" />
+  </head>
+  <body>
+    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">
+        {{ page.title | default: site.title | default:
+        site.github.repository_name }}
+      </h1>
+      <h2 class="project-tagline">
+        {{ page.description | default: site.description | default:
+        site.github.project_tagline }}
+      </h2>
+      {% if site.github.is_project_page %}
+      <a href="#活動行程" class="btn">活動行程</a>
+      <a href="#課程與講師介紹" class="btn">課程與講師介紹</a>
+      <a href="#報名資訊" class="btn">報名資訊</a>
+      <!--  
+      <a
+        href="https://docs.google.com/document/d/1Dwx3n6uS0pSejcxp1GDW6nJhbeqQzd9fMZ2NCTm046Y"
+        class="btn"
+        target="_blank"
+        >課程資源</a>
+      -->
+      <a href="#交通方式" class="btn">交通方式</a>
+      <!-- <a href="#活動花絮" class="btn">活動花絮</a> -->
+      <a href="#聯絡我們" class="btn">聯絡我們</a>
+      {% endif %} 
+      {% if site.show_downloads %}
+      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+      <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+
+      {{ content }}
+
+      <footer class="site-footer">
+        <center>
+          <a href="https://linguistics.ntu.edu.tw/" style="text-decoration:none">
+            <img 
+                src="https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/img/logo/gil.png" style="width:50px;height:50px;border-radius:50%;vertical-align:middle"
+                alt="gil-logo">
+            </a>
+          <a href="https://lope.linguistics.ntu.edu.tw/" style="text-decoration:none">
+            <img 
+                src="https://raw.githubusercontent.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}/main/img/logo/lope.png" style="width:50px;height:50px;border-radius:50%;vertical-align:middle"
+                alt="lope-logo">
+          </a>
+          <span class="site-footer-owner">國立台灣大學語言學研究所 LOPE 實驗室 © 2022</span>
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+      </center>
+      </footer>
+    </main>
+    <!-- 
+    <script>
+      document
+        .querySelectorAll("li > a")
+        .forEach((link) => link.setAttribute("target", "_blank"));
+      document
+        .querySelectorAll("td > a")
+        .forEach((link) => link.setAttribute("target", "_blank"));
+      document
+        .querySelectorAll("p > a")
+        .forEach((link) => link.setAttribute("target", "_blank"));
+    </script>
+    -->
+  </body>
+</html>
