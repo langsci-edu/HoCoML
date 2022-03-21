@@ -1,20 +1,11 @@
 
 .page-header {
-    background-image: 
-    repeating-linear-gradient(0deg, #f4a45c 0 50px,
-        rgba(255, 127, 0, 0.25) 50px 56px,
-        transparent 56px 63px,
-        rgba(255, 127, 0, 0.25) 63px 69px,
-        #fbe3cc 69px 116px,
-        transparent 116px 166px),
-    repeating-linear-gradient(90deg, #c3e3e3 0 50px,
-        #a6b4ac 50px 56px,
-        transparent 56px 63px,
-        #a6b4ac 63px 69px,
-        transparent 69px 116px,
-        #c3e3e3 116px 166px);
-    /* repeating-linear-gradient(-45deg, transparent 0 5px,
-        #94a294 5px 55px),
-    repeating-linear-gradient(45deg, transparent 0 5px,
-        rgba(143, 77, 63, 0.25) 5px 10px); */
+    background-image: linear-gradient(90deg, #c3e3e3, #faba81);
+}
+.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
+    color:#009999;
+}
+.btn {
+    color: rgb(255 255 255 / 76%);
+    background-color: #846b5d;
 }
