@@ -1,11 +1,15 @@
 
 .page-header {
-    background-image: linear-gradient(90deg, #c3e3e3, #faba81);
+    background-image: conic-gradient(from 0.75turn at 10% 45%, #ffe8d4 25%, transparent 10%), 
+    linear-gradient(to top, transparent 55%, #faba81 55%), 
+    linear-gradient(to left, #c3e3e3 20%, #86c3b5 20%);
 }
+
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     color:#009999;
 }
+
 .btn {
-    color: rgb(255 255 255 / 76%);
+    color: rgb(255 255 255 / 75%);
     background-color: #846b5d;
 }
