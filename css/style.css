@@ -8,8 +8,13 @@
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
     color:#009999;
 }
+/* 008080 */
 
 .btn {
     color: rgb(255 255 255 / 75%);
     background-color: #846b5d;
+}
+
+#intro {
+    color: #8d7567;
 }
