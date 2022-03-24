@@ -20,7 +20,7 @@
 
 ### 2. 指令列指令勒？ {#lecture} 
 > *數位時代下，唯一越陳越香的 LINUX 指令列，也可以用來處理語料、進行程式開發。不只能提升效率，也是理解計算邏輯的竅門。*
-- 講師：謝舒凱教授 (SK)
+- 講師：[謝舒凱教授 (SK)](https://github.com/loperntu)
 - 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
 
 ### 3. BAS MAUS 語音——文本對齊工具操作教學 {#lecture} 
@@ -30,25 +30,24 @@
 
 ### 4. Vim Up ! {#lecture} 
 > *透過 Vim 程式編輯器來達到人鍵合一，所思即所打。*
-- 講師：楊力行 (Lixing Yang)
-- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]() {#testtag}
+- 講師：[楊力行 (Lixing Yang)](https://github.com/Retr0327)
+- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]() 
 
 
 ### 5. 在伺服器訓練 ML 模型 {#lecture}  
 > *機器學習 (ML) 模型常需要特定電腦硬體環境。這個教學將介紹如何使用伺服器進行模型運算，並利用 GPU 來加速訓練。*
-- 講師：曾昱翔博士 (Sean)
+- 講師：[曾昱翔博士 (Sean)](https://github.com/seantyh)
 - 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
 
 ### 6. 網頁應用程式前端界面設計 {#lecture}  
 > *簡介 HTML/CSS/JS 等前端技術，旨在讓同學對於前端界面設計有初步的了解。*
-- 講師：廖永賦 (Yongfu Liao)
+- 講師：[廖永賦 (Yongfu Liao)](https://github.com/liao961120)
 - 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
 
 ### 7. 利用 Flask 打造機器學習 web app 並部署至 server {#lecture}  
 > *本節 session 將帶大家使用輕量級網頁框架 Flask 來打造一個情感偵測網路應用程式。我們將學習如何以 Flask 撰寫 API、建立簡易前端、呼叫模型預測 API、以及部署至 server 上。*
-- 講師：廖聿鋆 (Derek)
+- 講師：[廖聿鋆 (Derek)](https://github.com/yuyunliao0821)
 - 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
-
 
 
 ## 報名資訊
@@ -63,5 +62,5 @@
 ## 聯絡我們
 活動承辦人：張鈺琳同學 <cylchang37@gmail.com>
 
-## 主辦單位
-[台大語言所](https://linguistics.ntu.edu.tw/)。活動經費由教育部大專校院人文與社會科學領域標竿計畫（語言學）支持。
+## 主辦單位：[台大語言所](https://linguistics.ntu.edu.tw/) {#主辦單位}
+活動經費由教育部大專校院人文與社會科學領域標竿計畫（語言學）支持。
