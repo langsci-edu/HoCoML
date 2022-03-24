@@ -7,7 +7,7 @@
 🗓 日期：03.25 (五) - 03.26 (六)     
 📍 地點：人性空間 - 望古棧（新北市平溪區望古坑橋 26 之 1 號）
 
-![活動行程表](/docs/assets/schedule.png "活動行程表")
+![活動行程表](https://github.com/linlin-ling/HoCoML/blob/master/img/schedule.png "活動行程表")
 
 
 | 時間 | 行程 | 
@@ -66,4 +66,4 @@
 活動承辦人：張鈺琳同學 <cylchang37@gmail.com>
 
 ## 主辦單位：[台大語言所](https://linguistics.ntu.edu.tw/) {#主辦單位}
-<!-- 活動經費由教育部大專校院人文與社會科學領域標竿計畫（語言學）支持。 -->
+活動經費由教育部大專校院人文與社會科學領域標竿計畫（語言學）支持。
