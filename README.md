@@ -4,6 +4,9 @@
 🗓 日期：03.25 (五) - 03.26 (六)     
 📍 地點：人性空間 - 望古棧 *（新北市平溪區望古坑橋 26 之 1 號）*
 
+![.](/img/schedule.png "活動行程表")
+
+
 | 時間 | 行程 | 
 |--------|--------|
 | 10:30-11:30 | 於望古站集合 |
@@ -11,40 +14,42 @@
 ## 課程與講師介紹
 
 ### 1. 伺服器停看聽 {#lecture}
-> 簡介伺服器的功能以及介紹如何使用終端機連線伺服器。
+> ==簡介伺服器的功能以及介紹如何使用終端機連線伺服器。==
 - 講師：陳博煒 (Ray)
-- 課程資料： [📄](https://github.com/sbs-ntu/2021-ultrasound-workshop) ／ [✖️4⃣️🐎](https://github.com/Rayologist/ntu-clock-in-out-form-filler/tree/main/clockinoutform)
+- 課程資料： [📄](https://github.com/sbs-ntu/2021-ultrasound-workshop) ／ [🏰🐎🐎🐎🐎](https://github.com/Rayologist/ntu-clock-in-out-form-filler/tree/main/clockinoutform)
 
 ### 2. 指令列指令勒？ {#lecture} 
 > 數位時代下，唯一越陳越香的 LINUX 指令列，也可以用來處理語料、進行程式開發。不只能提升效率，也是理解計算邏輯的竅門。
 - 講師：謝舒凱教授 (SK)
-- 課程資料： [📄] ／ [✖️4⃣️🐎] 
+- 課程資料： [📄] ／ [🏰🐎🐎🐎🐎] 
 
 ### 3. BAS MAUS 語音——文本對齊工具操作教學 {#lecture} 
 > BAS MAUS是由德國慕尼黑大學開發的語音——文本強制對齊（Forced Alignment）工具，支援臺灣閩南語及臺灣華語。本課程將帶領大家在伺服器上透過 command line 實際操作該工具。
 - 講師：王麒瑋 (Willy)
-- 課程資料： [📄] ／ [✖️4⃣️🐎] 
+- 課程資料： [📄] ／ [🏰🐎🐎🐎🐎] 
 
-### 4. Vim Up ! {#lecture}  [📄](https://github.com/sbs-ntu/2021-ultrasound-workshop)／[✖️4⃣️🐎](https://github.com/Rayologist/ntu-clock-in-out-form-filler/tree/main/clockinoutform)
+### 4. Vim Up ! {#lecture} 
+> 透過 Vim 程式編輯器來達到人鍵合一，所思即所打。 
 - 講師：楊力行 (Lixing Yang)
-透過 Vim 程式編輯器來達到人鍵合一，所思即所打。 
-<!-- - 課程資料： [📄] ／ [✖️4⃣️🐎]  -->
+- 課程資料： [📄] ／ [🏰🐎🐎🐎🐎] 
 
 
 ### 5. 在伺服器訓練 ML 模型 {#lecture}  
 - 講師：曾昱翔博士 (Sean)
-- 課程資料： [📄] ／ [✖️4⃣️🐎] 
+- 課程資料： [📄] ／ [🏰🐎🐎🐎🐎] 
 > 機器學習 (ML) 模型常需要特定電腦硬體環境。這個教學將介紹如何使用伺服器進行模型運算，並利用 GPU 來加速訓練。 
 
 ### 6. 網頁應用程式前端界面設計 {#lecture}  
 - 講師：廖永賦 (Yongfu Liao)
-- 課程資料： [📄] ／ [✖️4⃣️🐎] 
+- 課程資料： [📄] ／ [🏰🐎🐎🐎🐎] 
 > 簡介 HTML/CSS/JS 等前端技術，旨在讓同學對於前端界面設計有初步的了解。
 
 ### 7. 利用 Flask 打造機器學習 web app 並部署至 server {#lecture}  
-- 講師：廖聿鋆 (Derek)
-- 課程資料： [📄] ／ [✖️4⃣️🐎] 
 > 本節 session 將帶大家使用輕量級網頁框架 Flask 來打造一個情感偵測網路應用程式。我們將學習如何以 Flask 撰寫 API、建立簡易前端、呼叫模型預測 API、以及部署至 server 上。
+
+- 講師：廖聿鋆 (Derek)
+- 課程資料： [📄] ／ [🏰🐎🐎🐎🐎] 
+
 
 
 ## 報名資訊
