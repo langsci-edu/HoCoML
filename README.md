@@ -1,7 +1,7 @@
 
 ## 活動行程
 
-🗓 日期：03.25 (五) - 03.26 (六) 
+🗓 日期：03.25 (五) - 03.26 (六)     
 📍 地點：人性空間 - 望古棧 *（新北市平溪區望古坑橋 26 之 1 號）*
 
 | 時間 | 行程 | 
@@ -11,24 +11,25 @@
 ## 課程與講師介紹
 
 ### 1. 伺服器停看聽 {#lecture}
-- 講師：陳博煒 (Ray)
-- 課程資料： [📄](https://github.com/sbs-ntu/2021-ultrasound-workshop) ／ [✖️4⃣️🐎] (https://github.com/Rayologist/ntu-clock-in-out-form-filler/tree/main/clockinoutform)
 > 簡介伺服器的功能以及介紹如何使用終端機連線伺服器。
+- 講師：陳博煒 (Ray)
+- 課程資料： [📄](https://github.com/sbs-ntu/2021-ultrasound-workshop) ／ [✖️4⃣️🐎](https://github.com/Rayologist/ntu-clock-in-out-form-filler/tree/main/clockinoutform)
 
 ### 2. 指令列指令勒？ {#lecture} 
+> 數位時代下，唯一越陳越香的 LINUX 指令列，也可以用來處理語料、進行程式開發。不只能提升效率，也是理解計算邏輯的竅門。
 - 講師：謝舒凱教授 (SK)
 - 課程資料： [📄] ／ [✖️4⃣️🐎] 
-> 數位時代下，唯一越陳越香的 LINUX 指令列，也可以用來處理語料、進行程式開發。不只能提升效率，也是理解計算邏輯的竅門。
 
 ### 3. BAS MAUS 語音——文本對齊工具操作教學 {#lecture} 
+> BAS MAUS是由德國慕尼黑大學開發的語音——文本強制對齊（Forced Alignment）工具，支援臺灣閩南語及臺灣華語。本課程將帶領大家在伺服器上透過 command line 實際操作該工具。
 - 講師：王麒瑋 (Willy)
 - 課程資料： [📄] ／ [✖️4⃣️🐎] 
-> BAS MAUS是由德國慕尼黑大學開發的語音——文本強制對齊（Forced Alignment）工具，支援臺灣閩南語及臺灣華語。本課程將帶領大家在伺服器上透過 command line 實際操作該工具。
 
-### 4. Vim Up ! {#lecture}  
+### 4. Vim Up ! {#lecture}  [📄](https://github.com/sbs-ntu/2021-ultrasound-workshop)／[✖️4⃣️🐎](https://github.com/Rayologist/ntu-clock-in-out-form-filler/tree/main/clockinoutform)
 - 講師：楊力行 (Lixing Yang)
-- 課程資料： [📄] ／ [✖️4⃣️🐎] 
-> 透過 Vim 程式編輯器來達到人鍵合一，所思即所打。
+透過 Vim 程式編輯器來達到人鍵合一，所思即所打。 
+<!-- - 課程資料： [📄] ／ [✖️4⃣️🐎]  -->
+
 
 ### 5. 在伺服器訓練 ML 模型 {#lecture}  
 - 講師：曾昱翔博士 (Sean)
