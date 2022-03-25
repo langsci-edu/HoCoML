@@ -15,7 +15,7 @@
 ### 1. 伺服器停看聽 {#lecture}
 > *簡介伺服器的功能以及介紹如何使用終端機連線伺服器。*
 - 講師：[陳博煒 (Ray)](https://github.com/Rayologist)
-- 課程資料： [📄](https://github.com/sbs-ntu/2021-ultrasound-workshop) ／ [🏰🐎🐎🐎🐎](https://github.com/Rayologist/ntu-clock-in-out-form-filler/tree/main/clockinoutform)
+- 課程資料： [📄]()   
 
 ### 2. 指令列指令勒？ {#lecture} 
 > *數位時代下，唯一越陳越香的 LINUX 指令列，也可以用來處理語料、進行程式開發。不只能提升效率，也是理解計算邏輯的竅門。*
@@ -30,7 +30,7 @@
 ### 4. Vim Up ! {#lecture} 
 > *透過 Vim 程式編輯器來達到人鍵合一，所思即所打。*
 - 講師：[楊力行 (Lixing Yang)](https://github.com/Retr0327)
-- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]() 
+- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎](https://github.com/Retr0327/vim-101) 
 
 
 ### 5. 在伺服器訓練 ML 模型 {#lecture}  
@@ -41,12 +41,12 @@
 ### 6. 網頁應用程式前端界面設計 {#lecture}  
 > *簡介 HTML/CSS/JS 等前端技術，旨在讓同學對於前端界面設計有初步的了解。*
 - 講師：[廖永賦 (Yongfu Liao)](https://github.com/liao961120)
-- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
+- 課程資料： [📄](https://docs.google.com/presentation/d/1hGcpfTC2Qtl0hCcAPmiLchPT3A5oe3iqZOYfQpCC3II)／ [🏰🐎🐎🐎🐎](https://github.com/liao961120/frontend-101)
 
 ### 7. 利用 Flask 打造機器學習 web app 並部署至 server {#lecture}  
 > *本節 session 將帶大家使用輕量級網頁框架 Flask 來打造一個情感偵測網路應用程式。我們將學習如何以 Flask 撰寫 API、建立簡易前端、呼叫模型預測 API、以及部署至 server 上。*
 - 講師：[廖聿鋆 (Derek)](https://github.com/yuyunliao0821)
-- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
+- 課程資料： [📄](https://bit.ly/3KVcwvq)  
 
 
 ## 報名資訊
