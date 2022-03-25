@@ -15,7 +15,7 @@
 ### 1. 伺服器停看聽 {#lecture}
 > *簡介伺服器的功能以及介紹如何使用終端機連線伺服器。*
 - 講師：[陳博煒 (Ray)](https://github.com/Rayologist)
-- 課程資料： [📄]()   
+- 課程資料： [📄](https://docs.google.com/presentation/d/1OzOMJ2T73YdY1fmNiHTRdh6xcVFyi4hYBO-61SVrsoU/edit?usp=sharing)   
 
 ### 2. 指令列指令勒？ {#lecture} 
 > *數位時代下，唯一越陳越香的 LINUX 指令列，也可以用來處理語料、進行程式開發。不只能提升效率，也是理解計算邏輯的竅門。*
@@ -25,7 +25,7 @@
 ### 3. BAS MAUS 語音——文本對齊工具操作教學 {#lecture} 
 > *BAS MAUS是由德國慕尼黑大學開發的語音——文本強制對齊（Forced Alignment）工具，支援臺灣閩南語及臺灣華語。本課程將帶領大家在伺服器上透過 command line 實際操作該工具。*
 - 講師：王麒瑋 (Willy)
-- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
+- 課程資料： [📄](https://drive.google.com/file/d/1ueHEvqqmWqe8GnxmEkI35nBTQfh7Hmt6/view?usp=sharing)／ [🏰🐎🐎🐎🐎]()
 
 ### 4. Vim Up ! {#lecture} 
 > *透過 Vim 程式編輯器來達到人鍵合一，所思即所打。*
