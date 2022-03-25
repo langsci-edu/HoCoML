@@ -96,6 +96,11 @@ background-size: 160px, 100% 100%
 - 希望相關的技能，可以增強大家的語言分析裝備。
 
 
+<p align="right">
+<img src="./figures/slideQR.png" alt="drawing" style="width:350px;"/>
+</p>
+
+
 ???
 speaker's note
 
