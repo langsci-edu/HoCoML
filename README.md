@@ -20,12 +20,12 @@
 ### 2. 指令列指令勒？ {#lecture} 
 > *數位時代下，唯一越陳越香的 LINUX 指令列，也可以用來處理語料、進行程式開發。不只能提升效率，也是理解計算邏輯的竅門。*
 - 講師：[謝舒凱教授 (SK)](https://github.com/loperntu)
-- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
+- 課程資料： [📄](/cmd/cmd4linguist.html)／ [🏰🐎🐎🐎🐎](https://github.com/langsci-edu/HoCoML/blob/gh-pages/cmd/cmd4linguist.Rmd)
 
 ### 3. BAS MAUS 語音——文本對齊工具操作教學 {#lecture} 
 > *BAS MAUS是由德國慕尼黑大學開發的語音——文本強制對齊（Forced Alignment）工具，支援臺灣閩南語及臺灣華語。本課程將帶領大家在伺服器上透過 command line 實際操作該工具。*
 - 講師：王麒瑋 (Willy)
-- 課程資料： [📄](https://drive.google.com/file/d/1ueHEvqqmWqe8GnxmEkI35nBTQfh7Hmt6/view?usp=sharing)／ [🏰🐎🐎🐎🐎]()
+- 課程資料： [📄](https://drive.google.com/file/d/1ueHEvqqmWqe8GnxmEkI35nBTQfh7Hmt6/view?usp=sharing)
 
 ### 4. Vim Up ! {#lecture} 
 > *透過 Vim 程式編輯器來達到人鍵合一，所思即所打。*
@@ -41,7 +41,7 @@
 ### 6. 網頁應用程式前端界面設計 {#lecture}  
 > *簡介 HTML/CSS/JS 等前端技術，旨在讓同學對於前端界面設計有初步的了解。*
 - 講師：[廖永賦 (Yongfu Liao)](https://github.com/liao961120)
-- 課程資料： [📄](https://docs.google.com/presentation/d/1hGcpfTC2Qtl0hCcAPmiLchPT3A5oe3iqZOYfQpCC3II)／ [🏰🐎🐎🐎🐎](https://github.com/liao961120/frontend-101)
+- 課程資料：[🏰🐎🐎🐎🐎](https://github.com/liao961120/frontend-101)
 
 ### 7. 利用 Flask 打造機器學習 web app 並部署至 server {#lecture}  
 > *本節 session 將帶大家使用輕量級網頁框架 Flask 來打造一個情感偵測網路應用程式。我們將學習如何以 Flask 撰寫 API、建立簡易前端、呼叫模型預測 API、以及部署至 server 上。*
