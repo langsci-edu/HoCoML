@@ -30,13 +30,13 @@
 ### 4. Vim Up ! {#lecture} 
 > *透過 Vim 程式編輯器來達到人鍵合一，所思即所打。*
 - 講師：[楊力行 (Lixing Yang)](https://github.com/Retr0327)
-- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎](https://github.com/Retr0327/vim-101) 
+- 課程資料： [🏰🐎🐎🐎🐎](https://github.com/Retr0327/vim-101) 
 
 
 ### 5. 在伺服器訓練 ML 模型 {#lecture}  
 > *機器學習 (ML) 模型常需要特定電腦硬體環境。這個教學將介紹如何使用伺服器進行模型運算，並利用 GPU 來加速訓練。*
 - 講師：[曾昱翔博士 (Sean)](https://github.com/seantyh)
-- 課程資料： [📄]()／ [🏰🐎🐎🐎🐎]()
+- 課程資料： [📄](https://bit.ly/hocoml-ml)／ [🏰🐎🐎🐎🐎](https://bit.ly/hocoml-mlcolab)
 
 ### 6. 網頁應用程式前端界面設計 {#lecture}  
 > *簡介 HTML/CSS/JS 等前端技術，旨在讓同學對於前端界面設計有初步的了解。*
