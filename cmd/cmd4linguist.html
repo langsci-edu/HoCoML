@@ -457,9 +457,8 @@ $ls /bin /usr/bin | sort | uniq | less
 ```bash
 #used the –d: option to specify that the field or columns are separated by a colon (:)
 $cut -d: -f 1,3 /etc/passwd
-# celex 還是用 deeplex sample
-$head tc_celex.txt 
-$cut -f2 tc_celex.txt | head
+$head celex.txt 
+$cut -f2 celex.txt | head
 ```
 
 - `paste` 合併檔案行列 Merge lines of files.。paste two files horizontally, such as file1, which will become the first column and file2 will become the second column
@@ -621,13 +620,12 @@ uniq -c alice-onewordsort.txt &gt; alice-wordfreq.txt
 tr ' ' '\n' &lt; alice-lowercaself.txt | sort | uniq -c &gt; alice-wordfreq2.txt
 tr '[:punct:]' ' ' &lt; alice-nofooter.txt | tr '[:upper:]' '[:lower:]' | tr '[:blank:]' ' ' |
 sort | uniq -c | sed 's/ \{1,\}/","/g' | sed 's/^",//g' | sed 's/$/"/g'
-w3m -dump http://www.gnu.org/gnu/manifesto.html | wc
 ```
 
 
 
 ---
-## Convert one-liners into parameterized shell scripts
+# Convert one-liners into parameterized shell scripts
 
 
 
@@ -682,11 +680,6 @@ class: inverse center middle
 # Clear the screen
 clear
 ```
-
-
----
-## awk
-
 
 
 
