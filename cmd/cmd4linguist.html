@@ -324,7 +324,7 @@ rm -r *
 ---
 ## 其他使用訣竅
 
-- Tab Autocomplete
+- Tab Auto-complete
 
 - 用上下鍵來找指令史 (Command History)
 
@@ -368,12 +368,15 @@ cat notafile.txt || echo “fail”
 
 -  `&amp;` ：在背景執行 (進階使用者可以考慮 `screen` 指令)
 
-So, if you want to run a long task (e.g. find and list every file on the hard drive containing “twi_”), but didn’t want your terminal frozen while it runs, you would run
+寫一個小程式，叫做 `hi` 如下，然後 `chmod +x hi`，再進入背景執行 `./hi &amp;`
 
 ```bash
-$find / -name "twi_" -ls &gt; twifiles.txt &amp;
+!/bin/bash
+
+echo hi
+sleep 5
+echo 你好
 ```
-where the final &amp; just says ‘Run this, and let me know when it finishes’.
 
 
 - `&amp;&amp;` : 即第一道指令執行成功後, 才會執行第二道指令。
