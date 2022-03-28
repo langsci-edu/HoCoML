@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fetch API</title>
+    </head>
+    <body>
+        <!-- ToDo2: input postId -->
+        <button id="fetch-data">Fetch Data</button>
+        <button id="clear-page">Clear Page</button>
+
+        <ol id="response"></ol>
+
+
+        <script>
+            // Fetch API
+            function fetchData() {
+                var url = 'https://jsonplaceholder.typicode.com/posts/1/comments';
+
+                fetch(url).then(response => {
+                    return response.json();
+                }).then(data => {
+                    console.log(data);
+                })
+            }
+
+            // ToDo1: buildResponse(data)
+
+            function clearPage() {
+                var target = document.querySelector('ol#response');
+                target.innerHTML = '';
+            }
+
+            
+            // Listen to mouse click event
+            document.querySelector('#fetch-data').addEventListener(
+                "click", fetchData
+            )
+            document.querySelector('#clear-page').addEventListener(
+                "click", clearPage
+            )
+        </script>
+
+    </body>
+</html>

@@ -20,7 +20,7 @@
 ### 2. 指令列指令勒？ {#lecture} 
 > *數位時代下，唯一越陳越香的 LINUX 指令列，也可以用來處理語料、進行程式開發。不只能提升效率，也是理解計算邏輯的竅門。*
 - 講師：[謝舒凱教授 (SK)](https://github.com/loperntu)
-- 課程資料： [📄](/cmd/cmd4linguist.html)／[🏰🐎🐎🐎🐎](https://github.com/langsci-edu/HoCoML/blob/gh-pages/cmd/cmd4linguist.Rmd)
+- 課程資料： [📄](/cmd/cmd4linguist.html)
 
 ### 3. BAS MAUS 語音——文本對齊工具操作教學 {#lecture} 
 > *BAS MAUS是由德國慕尼黑大學開發的語音——文本強制對齊（Forced Alignment）工具，支援臺灣閩南語及臺灣華語。本課程將帶領大家在伺服器上透過 command line 實際操作該工具。*

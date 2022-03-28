@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DOM Manipulation</title>
+    </head>
+    <body>
+        <input type="text" id="content" value="ANOTHER item">  <!-- ToDo2.2 -->
+        <button id="add-item">Add Item</button>          <!-- ToDo2.1 -->
+        <button id="clear-page">Clear Page</button>      <!-- ToDo1 -->
+        
+        <ol id="response">
+            <li>This is an item.</li>
+        </ol>
+
+
+        <script>
+            function addItem() {
+                var li = document.createElement('li');
+                var content = document.querySelector('input#content');  // ToDo2.2
+                li.innerHTML = content.value;                           // ToDo2.2
+                
+                var target = document.querySelector('ol#response');
+                target.appendChild(li);
+            }
+            
+            // ToDo1
+            function clearPage() {
+                var target = document.querySelector('ol#response');
+                target.innerHTML = '';
+            }
+
+            
+            // Listen to mouse click event
+            document.querySelector('#add-item').addEventListener(
+                "click", addItem
+            );
+            document.querySelector('#clear-page').addEventListener(
+                "click", clearPage
+            )
+        </script>
+
+    </body>
+</html>

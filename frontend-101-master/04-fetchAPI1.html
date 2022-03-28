@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fetch API</title>
+    </head>
+    <body>
+        <input type="text" id="postId" value="1">
+        <button id="fetch-data">Fetch Data</button>
+        <button id="clear-page">Clear Page</button>
+
+        <ol id="response"></ol>
+
+
+        <script>
+            // Fetch API
+            function fetchData() {
+                var postId = document.querySelector("input#postId");
+                var url = `https://jsonplaceholder.typicode.com/posts/${postId.value}/comments`
+
+                fetch(url).then(response => {
+                    return response.json();
+                }).then(data => {
+                    var ol = document.querySelector("ol#response");
+                    ol.innerHTML = JSON.stringify(data);
+                })
+            }
+
+
+            function clearPage() {
+                var target = document.querySelector('ol#response');
+                target.innerHTML = '';
+            }
+
+            
+            // Listen to mouse click event
+            document.querySelector('#fetch-data').addEventListener(
+                "click", fetchData
+            )
+            document.querySelector('#clear-page').addEventListener(
+                "click", clearPage
+            )
+        </script>
+    </body>
+</html>
