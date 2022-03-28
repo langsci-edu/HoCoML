@@ -337,16 +337,10 @@ $mkdir tmp
 ```bash
 $touch file{0..9}.txt
 ```
-  - 或是
-
-```bash
-mkdir wavdir && mv *.wav wavdir
-```
-
-
+ 
 
 ---
-## 萬用字元
+## 萬用字元應用
 
 
 - 刪除 (提醒：Unix has no ‘undo’)
@@ -372,9 +366,9 @@ rm -r *
 ---
 ## 輸入輸出、重導與管線
 
-- 指令列的哲學：每個工具應該 do one specific task。根據不同需要在結合起來成為更彈性與強大的工具。如何結合？除了寫 `bash` **scripts**， 或是利用 **pipes** ！
+- 指令列的哲學：每個工具應該 do one specific task。根據不同需要在結合起來成為更彈性與強大的工具。如何結合？除了寫 `bash` **scripts**， 可以利用 **pipes** ！
 
-- 有幾個運算子 
+- 先談一下與**輸入輸出**相關的三個運算子 
   - `<`  ‘Use this file as input’ 當輸入源
   - `>`  ‘Redirect the output to a file’ 存到
   - `>>`  ‘Append the output to a file’  新增到
@@ -387,7 +381,7 @@ $ls -l /usr/bin >> ls-output.txt
 ```
 
 ---
-## 管線
+## 管線運算子
 
 - `|` 輸送命令的標準輸出到其他標準輸入。(.green[你的 output 就是我的 input])
 
@@ -398,11 +392,11 @@ $ls -l /usr/bin | less
 - `||` 表示第一道指令執行失敗後, 才會執行第二道
 
 ```bash
-cat notafile.txt || echo “fail”
+$cat notafile.txt || echo “fail”
 ```
 
 ---
-## 執行多重指令的運算子 (operator)
+## 其他好用的運算子
 
 -  `&` ：在背景執行 (進階使用者可以考慮 `screen` 指令)
 
@@ -417,12 +411,17 @@ echo 你好
 ```
 
 
-- `&&` : 即第一道指令執行成功後, 才會執行第二道指令。
+- `&&` : 第一道指令執行成功後, 才會執行第二道指令。
 
 ```bash
 $mkdir txtfiles && mv subfolder/*.txt txtfiles && rm -r subfolder
 ```
-will create a new folder called ‘txtfiles’, move all the text files out of a subfolder into it, then remove that subfolder.
+
+
+
+
+
+
 
 ---
 class: inverse center middle
@@ -433,16 +432,16 @@ class: inverse center middle
 
 
 ---
-## 細看
+## 細看檔案
 
-- `head`
+- `head` (看頭)
 
 ```bash
 $head -n 3 test.txt
 ```
-- tail
+- tail (看尾)
 
-- `wc` （計算字數、行數、字元數）
+- `wc` (計算字數、行數、字元數)
 
 ```bash
 $wc test.txt
@@ -452,14 +451,14 @@ $wc -l test.txt
 
 
 ---
-## grep/egrep
+## grep/egrep 查找
 #### `grep` + `regex` = `egrep`
 
 > `grep [-acinv] [–color=auto] ‘查詢字串’ filename`
 
 - `grep -n` will print the line numbers of the matching lines (along with the matching lines)
 
-- grep: 可以利用**正則表示法** 來搜尋文本中的特定模式。有許多參數可設定。
+- grep: 可以利用 **正則表示法** 來搜尋文本中的特定模式。有許多參數可設定。
 
 ```bash
 $grep -i -A 1 -B 10  work mydata.csv | head -n 5
@@ -475,9 +474,9 @@ $ls /bin | sort | uniq | grep zsh
 ---
 ## 文檔處理
 
-- `sort` ‘sort the file by contents’
+- `sort` (按內容排序)
 
-- `uniq` (移除重複，常和 sort 連用。參數 -d 可以看重複的內容清單)
+- `uniq` (移除重複，常和 `sort` 連用。參數 `-d` 可以看重複的內容清單)
 
 ```bash
 $ls /bin /usr/bin | sort | uniq | less
@@ -513,10 +512,9 @@ $paste file_1 file_2
 ---
 ## 文檔處理
 
-- `sed` 可用來搜尋與取代 (find and replace)
-  - `$sed 's/oldtext/newtext/g' inputfile.txt.`
-  - sed is also perfectly happy to take regular expressions,
-
+- `sed` 可用來**搜尋與取代** (find and replace)，可與正則表示完美搭配。
+  > `$sed 's/oldtext/newtext/g' inputfile.txt`
+  
 ```bash
 $sed -e 's/love/愛/g' test.txt > test.txt
 ```
@@ -524,7 +522,7 @@ $sed -e 's/love/愛/g' test.txt > test.txt
 - `tr` ‘translate characters’
 
 ```bash
-#transform spaces into newlines (putting each word onto a line)
+# transform spaces into newlines (putting each word onto a line)
 
 $tr ' ' '\n' < test.txt
 ```
@@ -647,6 +645,7 @@ uniq -c alice-onewordsort.txt > alice-wordfreq.txt
 
 ---
 # 綜合
+Convert one-liners into parameterized shell scripts
 
 - Pipelining everything 
 
@@ -658,23 +657,15 @@ sort | uniq -c | sed 's/ \{1,\}/","/g' | sed 's/^",//g' | sed 's/$/"/g'
 
 
 
----
-# Convert one-liners into parameterized shell scripts
-
-
-
-
-
 
 ---
-## 中文文本到詞頻表的管線處理 pipeline
+## 中文文本到詞頻表的管線處理
 #### Turn existing Python and R code into reusable command-line tools 
 
 
-- 建立一個 jieba.R，放到處理資料的目錄下
+- 建立一個 `jieba.R` 如下，放到處理資料的目錄下
 
 ```{r, eval=FALSE}
-# thanks to simon
 library(jiebaR)
 txt = scan('stdin', what = 'char')
 words_vector = worker() <= txt
@@ -685,8 +676,8 @@ cat(words_char)
 - 測一下魯迅
 
 ```{bash,eval=FALSE}
-curl -s http://www.gutenberg.org/files/27166/27166-0.txt -o luxun.txt
-cat luxun.txt | Rscript jieba.R | tr ' ' '\n' | sort | uniq -c -g | sort -r > luxun-wordfreq.txt
+$curl -s http://www.gutenberg.org/files/27166/27166-0.txt -o luxun.txt
+$cat luxun.txt | Rscript jieba.R | tr ' ' '\n' | sort | uniq -c -g | sort -r > luxun-wordfreq.txt
 ```
 
 
